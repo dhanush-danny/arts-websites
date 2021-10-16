@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Art</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <br><br>
+    <center>
+        <h2 class="links"><a href="#home">Home</a></h2>
+        <label class="label">--</label>
+        <h2 class="links"><a href="#about">About</a></h2>
+        <label class="label">--</label>
+        <h2 class="links"><a href="#blog">Blog</a></h2>
+        <label class="label">--</label>
+        <h2 class="links"><a href="#gallery">Gallery</a></h2>
+        <label class="label">--</label>
+        <h2 class="links"><a href="#contact">Contact</a></h2>
+        <br><br>
+    </center>
+    <div>
+        <img width="50px" onclick="nextimg()" height="50px" id="p_img" class="np_button" src="previous_img.png">
+        <img width="50px" onclick="previousimg()" height="50px" id="next_button" class="np_button" src="next_img.png">
+        <img src="dummy.jfif" width="50%" height="50%" id="img_home">
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
